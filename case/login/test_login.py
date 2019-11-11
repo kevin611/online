@@ -44,7 +44,11 @@ class Login(unittest.TestCase):
 			# 将图片字符放大
 			out = region.resize((200, 60))
 			code = pytesseract.image_to_string(out)  # 验证码
-			if len(code) != 4 or random.choice(string.ascii_letters + '/\{}[]?<>,.!@#$%^&*() +=-_') in code:
+			if len(code) != 4:
+				print("验证码获取错误%s，正在重新获取..." % code)
+				time.sleep(1)
+				continue
+			elif random.choice(string.ascii_letters + '/\{}[]?<>,.!@#$%^&*() +=-_') in code:
 				print("验证码获取错误%s，正在重新获取..." % code)
 				time.sleep(1)
 				continue
