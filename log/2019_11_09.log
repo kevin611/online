@@ -1,0 +1,21 @@
+[2019-11-09 11:12:26,663] - logger.py] - INFO: ----------test is start----------
+[2019-11-09 11:12:26,663] - logger.py] - INFO: 请求的接口地址为: http://eyc.9161252.com:801/frontend/v1/login
+[2019-11-09 11:12:26,664] - logger.py] - INFO: 请求的参数为: {'json': {'userName': 'mmmlll', 'password': '12345678', 'code': '6372', 'captcha_key': 'O2HgQodC2BzYa3G'}}
+[2019-11-09 11:12:26,664] - logger.py] - INFO: 响应内容为: {"sign":1573113391,"code":200,"status":"success","message":"\u6210\u529f","data":{"userInfo":{"uid":3886883,"userName":"mmmlll","balance":"0.00","phone":"*******-","email":"-","wechat":"-","realName":"\u5927\u54e5_V1","pic":"","lastTime":1573262011,"levelId":1,"levelName":"VIP1","payPassword":"unset","cardNum":"unset","rebate":"{\"1\":\"1.5\",\"2\":\"1.5\",\"3\":\"1.5\",\"4\":\"1.5\",\"5\":\"1.5\",\"6\":\"1.5\",\"7\":\"1.5\",\"9\":\"1.5\",\"10\":\"1.5\",\"11\":\"1.5\",\"12\":\"1.5\",\"13\":\"1.5\",\"14\":\"1.5\",\"15\":\"1.5\",\"16\":\"1.5\",\"17\":\"1.5\",\"18\":\"1.5\",\"19\":\"1.5\",\"20\":\"1.5\",\"21\":\"1.5\",\"22\":\"1.5\",\"23\":\"1.5\",\"24\":\"1.5\",\"25\":\"1.5\",\"26\":\"1.5\",\"27\":\"1.5\",\"28\":\"1.5\",\"29\":\"1.5\",\"2900\":\"1.5\",\"2901\":\"1.5\",\"2902\":\"1.5\",\"2903\":\"1.5\",\"2904\":\"1.5\",\"2905\":\"1.5\",\"2906\":\"1.5\",\"3630\":\"1.5\",\"3631\":\"1.5\",\"3632\":\"1.5\",\"10044\":\"1.5\",\"10045\":\"1.5\"}","lastIp":"10.10.111.37","secret":"unset","agencyInfo":{"uid":3886883,"balance":"0.00","levelId":1,"levelName":"VIP1","agencyType":"agency","status":"yes","lock":"no","active":"no"},"status":"yes","is_agency":0,"userType":"v1"},"token":"bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vZXljLjkxNjEyNTIuY29tL2Zyb250ZW5kL3YxL2xvZ2luIiwiaWF0IjoxNTczMjY5MTQ3LCJleHAiOjE1NzMzMTIzNDcsIm5iZiI6MTU3MzI2OTE0NywianRpIjoiWk1mQU92cFAyUW9JTVVQViIsInN1YiI6Mzg4Njg4MywicHJ2IjoiODI0NGEwMmU0MWJmMDBmNmQwMDZkODUxNWI1YzZmNjE1YmVmZDI5NiIsInNpZCI6MjJ9.HN-y_nlS2-WVPYgBz7fp38ysOCz6qoC22USsJRaqqm4"}}
+[2019-11-09 11:12:26,665] - logger.py] - INFO: 响应状态码为: 200
+[2019-11-09 11:12:26,666] - logger.py] - INFO: ----------test is pass----------
+[2019-11-09 11:12:26,666] - logger.py] - INFO: ----------test is end----------
+[2019-11-09 17:20:33,425] - logger.py] - INFO: ----------test is start----------
+[2019-11-09 17:20:33,426] - logger.py] - INFO: 请求的接口地址为: http://eyc.9161252.com:801/frontend/v1/login
+[2019-11-09 17:20:33,426] - logger.py] - INFO: 请求的参数为: {'json': {'userName': '', 'password': '12345678', 'code': '6356', 'captcha_key': 'J8HqTXPr0xE3vid'}}
+[2019-11-09 17:20:33,426] - logger.py] - INFO: 响应内容为: {"sign":1573113391,"code":400,"status":"error","message":"\u7528\u6237\u540d \u5b57\u6bb5\u5fc5\u987b\u586b\u5199"}
+[2019-11-09 17:20:33,427] - logger.py] - INFO: 响应状态码为: 200
+[2019-11-09 17:20:33,428] - logger.py] - INFO: ----------test is pass----------
+[2019-11-09 17:20:33,428] - logger.py] - INFO: ----------test is end----------
+[2019-11-09 19:45:36,146] - logger.py] - INFO: ----------test is start----------
+[2019-11-09 19:45:36,146] - logger.py] - INFO: 请求的接口地址为: http://eyc.9161252.com:801/frontend/v1/member/logout
+[2019-11-09 19:45:36,147] - logger.py] - INFO: 请求的参数为: {'headers': {'Authorization': 'bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vZXljLjkxNjEyNTIuY29tL2Zyb250ZW5kL3YxL2xvZ2luIiwiaWF0IjoxNTczMjk5OTM2LCJleHAiOjE1NzMzNDMxMzYsIm5iZiI6MTU3MzI5OTkzNiwianRpIjoiSGk1R2dlN0VTcHZTRDlhMyIsInN1YiI6Mzg4Njg4MywicHJ2IjoiODI0NGEwMmU0MWJmMDBmNmQwMDZkODUxNWI1YzZmNjE1YmVmZDI5NiIsInNpZCI6MjJ9.gsI5NIbO02w5__Ahe3o1v2MNUWpLdZ5761xLnnHsvZY'}}
+[2019-11-09 19:45:36,147] - logger.py] - INFO: 响应内容为: {"sign":1573113391,"code":200,"status":"success","message":"\u6210\u529f","data":"\u5b89\u5168\u9000\u51fa"}
+[2019-11-09 19:45:36,148] - logger.py] - INFO: 响应状态码为: 200
+[2019-11-09 19:45:36,148] - logger.py] - INFO: ----------test is pass----------
+[2019-11-09 19:45:36,148] - logger.py] - INFO: ----------test is end----------

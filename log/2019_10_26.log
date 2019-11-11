@@ -1,0 +1,19 @@
+[2019-10-26 14:39:20,694] - logger.py] - INFO: ----------test is start----------
+[2019-10-26 14:39:20,695] - logger.py] - INFO: 请求接口为: http://api01.oriental-game.com:8085/game-providers
+[2019-10-26 14:39:20,695] - logger.py] - INFO: 响应状态码为: 200
+[2019-10-26 14:39:20,696] - logger.py] - INFO: ----------test is pass----------
+[2019-10-26 14:39:20,696] - logger.py] - INFO: ----------test is end----------
+[2019-10-26 14:39:33,370] - logger.py] - INFO: ----------test is start----------
+[2019-10-26 14:39:33,370] - logger.py] - INFO: 请求的接口地址为: http://api01.oriental-game.com:8085/game-providers/34/balance?username=marsqc
+[2019-10-26 14:39:33,370] - logger.py] - INFO: 请求的参数为: {'headers': {'x-token': 'iJpnJvMRJqwjCz2J1GRNJ9CNAVO8PvTn37aqg9zrkoJaT6AKtFWkRiW40GnXYdRx9DKlb8MpzJiZNzGlHyBE2Jqa16xRzeLiexwd'}}
+[2019-10-26 14:39:33,371] - logger.py] - INFO: 响应内容为: {"status":"success","data":{"balance":1}}
+[2019-10-26 14:39:33,371] - logger.py] - INFO: 响应状态码为: 200
+[2019-10-26 14:39:33,372] - logger.py] - INFO: ----------test is pass----------
+[2019-10-26 14:39:33,372] - logger.py] - INFO: ----------test is end----------
+[2019-10-26 14:40:26,160] - logger.py] - INFO: ----------test is start----------
+[2019-10-26 14:40:26,161] - logger.py] - INFO: 请求的接口地址为: http://api01.oriental-game.com:8085/game-providers/34/balance?username=marsqc
+[2019-10-26 14:40:26,161] - logger.py] - INFO: 请求的参数为: {'headers': {'x-token': 'GETvXMTZFPdq0eGW22tvIMWwprW4YEMoRUDKn6Q0S9bI5Q7oJuCXOVX2kL7Wawx6n1JBpg937izyS7D2prPa9zvU45SdnitffG0L'}}
+[2019-10-26 14:40:26,162] - logger.py] - INFO: 响应内容为: {"status":"success","data":{"balance":1}}
+[2019-10-26 14:40:26,162] - logger.py] - INFO: 响应状态码为: 200
+[2019-10-26 14:40:26,162] - logger.py] - INFO: ----------test is pass----------
+[2019-10-26 14:40:26,163] - logger.py] - INFO: ----------test is end----------

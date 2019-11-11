@@ -1,0 +1,212 @@
+[2019-10-29 10:55:10,770] - logger.py] - INFO: ----------test is start----------
+[2019-10-29 10:55:10,771] - logger.py] - INFO: 请求的接口地址为: http://klk.9161252.com:801/frontend/v1/login
+[2019-10-29 10:55:10,771] - logger.py] - INFO: 请求的参数为: {'json': {'userName': 'mmmlll', 'password': '12345678'}}
+[2019-10-29 10:55:10,771] - logger.py] - INFO: 响应内容为: {"sign":1571738210,"code":200,"status":"success","message":"\u6210\u529f","data":{"userInfo":{"uid":1101051,"userName":"mmmlll","balance":"12.10","phone":"*******-","email":"12378796@163.com","wechat":"5854444","realName":"\u7231\u795e\u7684\u7bad\u540e\u65b9\u53ef","pic":"photo24.png","lastTime":1572317528,"levelId":1,"levelName":"VIP1","payPassword":"set","cardNum":"set","rebate":"{\"1\":\"1.5\",\"2\":\"1.5\",\"3\":\"1.5\",\"4\":\"1.5\",\"5\":\"1.5\",\"6\":\"1.5\",\"7\":\"1.5\",\"9\":\"1.5\",\"10\":\"1.5\",\"11\":\"1.5\",\"12\":\"1.5\",\"13\":\"1.5\",\"14\":\"1.5\",\"15\":\"1.5\",\"16\":\"1.5\",\"17\":\"1.5\",\"18\":\"1.5\",\"19\":\"1.5\",\"20\":\"1.5\",\"21\":\"1.5\",\"22\":\"1.5\",\"23\":\"1.5\",\"24\":\"1.5\",\"25\":\"1.5\",\"26\":\"1.5\",\"27\":\"1.5\",\"28\":\"1.5\",\"29\":\"1.5\",\"2900\":\"1.5\",\"2901\":\"1.5\",\"2902\":\"1.5\",\"2903\":\"1.5\",\"2904\":\"1.5\",\"2905\":\"1.5\",\"2906\":\"1.5\",\"3630\":\"1.5\",\"3631\":\"1.5\",\"3632\":\"1.5\",\"10044\":\"1.5\",\"10045\":\"1.5\"}","lastIp":"180.232.7.117","secret":"\u6700\u559c\u7231\u7684\u8fd0\u52a8?","agencyInfo":{"uid":1101051,"balance":"0.28","levelId":1,"levelName":"VIP1","agencyType":"agency","status":"yes","lock":"no","active":"yes"},"status":"yes","is_agency":1,"userType":"v1"},"token":"bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8va2xrLjkxNjEyNTIuY29tL2Zyb250ZW5kL3YxL2xvZ2luIiwiaWF0IjoxNTcyMzE3NzEyLCJleHAiOjE1NzIzNjA5MTIsIm5iZiI6MTU3MjMxNzcxMiwianRpIjoiVXUwakh3TndHcHl0SlRrMCIsInN1YiI6MTEwMTA1MSwicHJ2IjoiODI0NGEwMmU0MWJmMDBmNmQwMDZkODUxNWI1YzZmNjE1YmVmZDI5NiIsInNpZCI6M30.pJDGc1AENZyVbu1DQLLiGABrrL_1XaXuRuvrcOGBcpY"}}
+[2019-10-29 10:55:10,772] - logger.py] - INFO: 响应状态码为: 200
+[2019-10-29 10:55:28,818] - logger.py] - INFO: ----------test is start----------
+[2019-10-29 10:55:28,818] - logger.py] - INFO: 请求的接口地址为: http://klk.9161252.com:801/frontend/v1/login
+[2019-10-29 10:55:28,819] - logger.py] - INFO: 请求的参数为: {'json': {'userName': 'mmmlll', 'password': '12345678'}}
+[2019-10-29 10:55:28,819] - logger.py] - INFO: 响应内容为: {"sign":1571738210,"code":200,"status":"success","message":"\u6210\u529f","data":{"userInfo":{"uid":1101051,"userName":"mmmlll","balance":"12.10","phone":"*******-","email":"12378796@163.com","wechat":"5854444","realName":"\u7231\u795e\u7684\u7bad\u540e\u65b9\u53ef","pic":"photo24.png","lastTime":1572317712,"levelId":1,"levelName":"VIP1","payPassword":"set","cardNum":"set","rebate":"{\"1\":\"1.5\",\"2\":\"1.5\",\"3\":\"1.5\",\"4\":\"1.5\",\"5\":\"1.5\",\"6\":\"1.5\",\"7\":\"1.5\",\"9\":\"1.5\",\"10\":\"1.5\",\"11\":\"1.5\",\"12\":\"1.5\",\"13\":\"1.5\",\"14\":\"1.5\",\"15\":\"1.5\",\"16\":\"1.5\",\"17\":\"1.5\",\"18\":\"1.5\",\"19\":\"1.5\",\"20\":\"1.5\",\"21\":\"1.5\",\"22\":\"1.5\",\"23\":\"1.5\",\"24\":\"1.5\",\"25\":\"1.5\",\"26\":\"1.5\",\"27\":\"1.5\",\"28\":\"1.5\",\"29\":\"1.5\",\"2900\":\"1.5\",\"2901\":\"1.5\",\"2902\":\"1.5\",\"2903\":\"1.5\",\"2904\":\"1.5\",\"2905\":\"1.5\",\"2906\":\"1.5\",\"3630\":\"1.5\",\"3631\":\"1.5\",\"3632\":\"1.5\",\"10044\":\"1.5\",\"10045\":\"1.5\"}","lastIp":"180.232.7.117","secret":"\u6700\u559c\u7231\u7684\u8fd0\u52a8?","agencyInfo":{"uid":1101051,"balance":"0.28","levelId":1,"levelName":"VIP1","agencyType":"agency","status":"yes","lock":"no","active":"yes"},"status":"yes","is_agency":1,"userType":"v1"},"token":"bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8va2xrLjkxNjEyNTIuY29tL2Zyb250ZW5kL3YxL2xvZ2luIiwiaWF0IjoxNTcyMzE3NzMwLCJleHAiOjE1NzIzNjA5MzAsIm5iZiI6MTU3MjMxNzczMCwianRpIjoiNUxvSEl4dTZCOWVEZENNMyIsInN1YiI6MTEwMTA1MSwicHJ2IjoiODI0NGEwMmU0MWJmMDBmNmQwMDZkODUxNWI1YzZmNjE1YmVmZDI5NiIsInNpZCI6M30.emWqjTkAqt3S9nZbzd57EyTej2xj7I4bHvDFW2RoTd0"}}
+[2019-10-29 10:55:28,820] - logger.py] - INFO: 响应状态码为: 200
+[2019-10-29 10:55:28,820] - logger.py] - INFO: ----------test is pass----------
+[2019-10-29 10:55:28,821] - logger.py] - INFO: ----------test is end----------
+[2019-10-29 11:06:43,811] - logger.py] - INFO: ----------test is start----------
+[2019-10-29 11:06:43,811] - logger.py] - INFO: 请求的接口地址为: http://klk.9161252.com:801/frontend/v1/login
+[2019-10-29 11:06:43,812] - logger.py] - INFO: 请求的参数为: {'json': {'userName': 'mmmlll', 'password': '12345678'}}
+[2019-10-29 11:06:43,812] - logger.py] - INFO: 响应内容为: {"sign":1571738210,"code":200,"status":"success","message":"\u6210\u529f","data":{"userInfo":{"uid":1101051,"userName":"mmmlll","balance":"12.10","phone":"*******-","email":"12378796@163.com","wechat":"5854444","realName":"\u7231\u795e\u7684\u7bad\u540e\u65b9\u53ef","pic":"photo24.png","lastTime":1572318094,"levelId":1,"levelName":"VIP1","payPassword":"set","cardNum":"set","rebate":"{\"1\":\"1.5\",\"2\":\"1.5\",\"3\":\"1.5\",\"4\":\"1.5\",\"5\":\"1.5\",\"6\":\"1.5\",\"7\":\"1.5\",\"9\":\"1.5\",\"10\":\"1.5\",\"11\":\"1.5\",\"12\":\"1.5\",\"13\":\"1.5\",\"14\":\"1.5\",\"15\":\"1.5\",\"16\":\"1.5\",\"17\":\"1.5\",\"18\":\"1.5\",\"19\":\"1.5\",\"20\":\"1.5\",\"21\":\"1.5\",\"22\":\"1.5\",\"23\":\"1.5\",\"24\":\"1.5\",\"25\":\"1.5\",\"26\":\"1.5\",\"27\":\"1.5\",\"28\":\"1.5\",\"29\":\"1.5\",\"2900\":\"1.5\",\"2901\":\"1.5\",\"2902\":\"1.5\",\"2903\":\"1.5\",\"2904\":\"1.5\",\"2905\":\"1.5\",\"2906\":\"1.5\",\"3630\":\"1.5\",\"3631\":\"1.5\",\"3632\":\"1.5\",\"10044\":\"1.5\",\"10045\":\"1.5\"}","lastIp":"180.232.7.117","secret":"\u6700\u559c\u7231\u7684\u8fd0\u52a8?","agencyInfo":{"uid":1101051,"balance":"0.28","levelId":1,"levelName":"VIP1","agencyType":"agency","status":"yes","lock":"no","active":"yes"},"status":"yes","is_agency":1,"userType":"v1"},"token":"bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8va2xrLjkxNjEyNTIuY29tL2Zyb250ZW5kL3YxL2xvZ2luIiwiaWF0IjoxNTcyMzE4NDA1LCJleHAiOjE1NzIzNjE2MDUsIm5iZiI6MTU3MjMxODQwNSwianRpIjoiV3NaRlc4YWVnTVdYNG0wayIsInN1YiI6MTEwMTA1MSwicHJ2IjoiODI0NGEwMmU0MWJmMDBmNmQwMDZkODUxNWI1YzZmNjE1YmVmZDI5NiIsInNpZCI6M30.7XRd6qrB35cL24hSYOjAO9JTMP_0QQq-vCSNTSSyoRQ"}}
+[2019-10-29 11:06:43,813] - logger.py] - INFO: 响应状态码为: 200
+[2019-10-29 11:06:43,813] - logger.py] - INFO: ----------test is pass----------
+[2019-10-29 11:06:43,813] - logger.py] - INFO: ----------test is end----------
+[2019-10-29 11:09:47,033] - logger.py] - INFO: ----------test is start----------
+[2019-10-29 11:09:47,033] - logger.py] - INFO: 请求的接口地址为: http://klk.9161252.com:801/frontend/v1/member/logout
+[2019-10-29 11:09:47,034] - logger.py] - INFO: 请求的参数为: {'headers': {'Authorization': 'bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8va2xrLjkxNjEyNTIuY29tL2Zyb250ZW5kL3YxL2xvZ2luIiwiaWF0IjoxNTcyMzE4NTg4LCJleHAiOjE1NzIzNjE3ODgsIm5iZiI6MTU3MjMxODU4OCwianRpIjoibGFvdHB3YWN4NkRMMGZjayIsInN1YiI6MTEwMTA1MSwicHJ2IjoiODI0NGEwMmU0MWJmMDBmNmQwMDZkODUxNWI1YzZmNjE1YmVmZDI5NiIsInNpZCI6M30.f1Vft_bKQdaJ5cRyfxvnzRNIVuB2hHlw9910Cy7voFI'}}
+[2019-10-29 11:09:47,034] - logger.py] - INFO: 响应内容为: {"sign":1571738210,"code":200,"status":"success","message":"\u6210\u529f","data":"\u5b89\u5168\u9000\u51fa"}
+[2019-10-29 11:09:47,035] - logger.py] - INFO: 响应状态码为: 200
+[2019-10-29 11:09:47,035] - logger.py] - INFO: ----------test is pass----------
+[2019-10-29 11:09:47,035] - logger.py] - INFO: ----------test is end----------
+[2019-10-29 11:29:33,074] - logger.py] - INFO: ----------test is start----------
+[2019-10-29 11:29:33,075] - logger.py] - INFO: 请求的接口地址为: http://klk.9161252.com:801/frontend/v1/login
+[2019-10-29 11:29:33,075] - logger.py] - INFO: 请求的参数为: {'json': {'userName': 'mmmlll', 'password': '1234567822'}}
+[2019-10-29 11:29:33,075] - logger.py] - INFO: 响应内容为: {"sign":1571738210,"code":400,"status":"error","message":"\u5e10\u53f7\u6216\u5bc6\u7801\u9519\u8bef"}
+[2019-10-29 11:29:33,076] - logger.py] - INFO: 响应状态码为: 200
+[2019-10-29 11:29:33,076] - logger.py] - INFO: ----------test is pass----------
+[2019-10-29 11:29:33,076] - logger.py] - INFO: ----------test is end----------
+[2019-10-29 11:29:47,712] - logger.py] - INFO: ----------test is start----------
+[2019-10-29 11:29:47,712] - logger.py] - INFO: 请求的接口地址为: http://klk.9161252.com:801/frontend/v1/login
+[2019-10-29 11:29:47,713] - logger.py] - INFO: 请求的参数为: {'json': {'userName': 'mmmlll', 'password': '1234567822'}}
+[2019-10-29 11:29:47,713] - logger.py] - INFO: 响应内容为: {"sign":1571738210,"code":400,"status":"error","message":"\u7f3a\u5c11\u5fc5\u8981\u7684\u53c2\u6570"}
+[2019-10-29 11:29:47,713] - logger.py] - INFO: 响应状态码为: 200
+[2019-10-29 11:29:47,714] - logger.py] - INFO: ----------test is pass----------
+[2019-10-29 11:29:47,714] - logger.py] - INFO: ----------test is end----------
+[2019-10-29 11:30:38,868] - logger.py] - INFO: ----------test is start----------
+[2019-10-29 11:30:38,869] - logger.py] - INFO: 请求的接口地址为: http://klk.9161252.com:801/frontend/v1/login
+[2019-10-29 11:30:38,869] - logger.py] - INFO: 请求的参数为: {'json': {'userName': 'mmmlll', 'password': '12345678'}}
+[2019-10-29 11:30:38,870] - logger.py] - INFO: 响应内容为: {"sign":1571738210,"code":400,"status":"error","message":"\u7f3a\u5c11\u5fc5\u8981\u7684\u53c2\u6570"}
+[2019-10-29 11:30:38,870] - logger.py] - INFO: 响应状态码为: 200
+[2019-10-29 11:30:39,016] - logger.py] - INFO: ----------test is start----------
+[2019-10-29 11:30:39,016] - logger.py] - INFO: 请求的接口地址为: http://klk.9161252.com:801/frontend/v1/login
+[2019-10-29 11:30:39,017] - logger.py] - INFO: 请求的参数为: {'json': {'userName': 'mmmlll', 'password': '1234567822'}}
+[2019-10-29 11:30:39,017] - logger.py] - INFO: 响应内容为: {"sign":1571738210,"code":400,"status":"error","message":"\u7f3a\u5c11\u5fc5\u8981\u7684\u53c2\u6570"}
+[2019-10-29 11:30:39,018] - logger.py] - INFO: 响应状态码为: 200
+[2019-10-29 11:30:39,018] - logger.py] - INFO: ----------test is pass----------
+[2019-10-29 11:30:39,019] - logger.py] - INFO: ----------test is end----------
+[2019-10-29 11:31:43,330] - logger.py] - INFO: ----------test is start----------
+[2019-10-29 11:31:43,332] - logger.py] - INFO: 请求的接口地址为: http://klk.9161252.com:801/frontend/v1/login
+[2019-10-29 11:31:43,334] - logger.py] - INFO: 请求的参数为: {'json': {'userName': 'mmmlll', 'password': '12345678'}}
+[2019-10-29 11:31:43,335] - logger.py] - INFO: 响应内容为: {"sign":1571738210,"code":400,"status":"error","message":"\u7f3a\u5c11\u5fc5\u8981\u7684\u53c2\u6570"}
+[2019-10-29 11:31:43,335] - logger.py] - INFO: 响应状态码为: 200
+[2019-10-29 13:58:43,481] - logger.py] - INFO: ----------test.txt is start----------
+[2019-10-29 13:58:43,482] - logger.py] - INFO: 请求的接口地址为: http://klk.9161252.com:801/frontend/v1/login
+[2019-10-29 13:58:43,482] - logger.py] - INFO: 请求的参数为: {'json': {'userName': 'mmmlll', 'password': '1234567822'}}
+[2019-10-29 13:58:43,483] - logger.py] - INFO: 响应内容为: {"sign":1571738210,"code":400,"status":"error","message":"\u5e10\u53f7\u6216\u5bc6\u7801\u9519\u8bef"}
+[2019-10-29 13:58:43,483] - logger.py] - INFO: 响应状态码为: 200
+[2019-10-29 13:58:43,483] - logger.py] - INFO: ----------test.txt is pass----------
+[2019-10-29 13:58:43,484] - logger.py] - INFO: ----------test.txt is end----------
+[2019-10-29 13:59:22,758] - logger.py] - INFO: ----------test.txt is start----------
+[2019-10-29 13:59:22,759] - logger.py] - INFO: 请求的接口地址为: http://klk.9161252.com:801/frontend/v1/login
+[2019-10-29 13:59:22,759] - logger.py] - INFO: 请求的参数为: {'json': {'userName': 'mmmlll', 'password': '12345678'}}
+[2019-10-29 13:59:22,759] - logger.py] - INFO: 响应内容为: {"sign":1571738210,"code":200,"status":"success","message":"\u6210\u529f","data":{"userInfo":{"uid":1101051,"userName":"mmmlll","balance":"12.10","phone":"*******-","email":"12378796@163.com","wechat":"5854444","realName":"\u7231\u795e\u7684\u7bad\u540e\u65b9\u53ef","pic":"photo24.png","lastTime":1572328637,"levelId":1,"levelName":"VIP1","payPassword":"set","cardNum":"set","rebate":"{\"1\":\"1.5\",\"2\":\"1.5\",\"3\":\"1.5\",\"4\":\"1.5\",\"5\":\"1.5\",\"6\":\"1.5\",\"7\":\"1.5\",\"9\":\"1.5\",\"10\":\"1.5\",\"11\":\"1.5\",\"12\":\"1.5\",\"13\":\"1.5\",\"14\":\"1.5\",\"15\":\"1.5\",\"16\":\"1.5\",\"17\":\"1.5\",\"18\":\"1.5\",\"19\":\"1.5\",\"20\":\"1.5\",\"21\":\"1.5\",\"22\":\"1.5\",\"23\":\"1.5\",\"24\":\"1.5\",\"25\":\"1.5\",\"26\":\"1.5\",\"27\":\"1.5\",\"28\":\"1.5\",\"29\":\"1.5\",\"2900\":\"1.5\",\"2901\":\"1.5\",\"2902\":\"1.5\",\"2903\":\"1.5\",\"2904\":\"1.5\",\"2905\":\"1.5\",\"2906\":\"1.5\",\"3630\":\"1.5\",\"3631\":\"1.5\",\"3632\":\"1.5\",\"10044\":\"1.5\",\"10045\":\"1.5\"}","lastIp":"180.232.7.117","secret":"\u6700\u559c\u7231\u7684\u8fd0\u52a8?","agencyInfo":{"uid":1101051,"balance":"0.28","levelId":1,"levelName":"VIP1","agencyType":"agency","status":"yes","lock":"no","active":"yes"},"status":"yes","is_agency":1,"userType":"v1"},"token":"bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8va2xrLjkxNjEyNTIuY29tL2Zyb250ZW5kL3YxL2xvZ2luIiwiaWF0IjoxNTcyMzI4NzY0LCJleHAiOjE1NzIzNzE5NjQsIm5iZiI6MTU3MjMyODc2NCwianRpIjoiYmlsUUswcDd1a0tsYmlYaCIsInN1YiI6MTEwMTA1MSwicHJ2IjoiODI0NGEwMmU0MWJmMDBmNmQwMDZkODUxNWI1YzZmNjE1YmVmZDI5NiIsInNpZCI6M30.3KzU7vJPX9U446jzlu8Z41NVFhpY1BP1zFLfv4N_Z0M"}}
+[2019-10-29 13:59:22,760] - logger.py] - INFO: 响应状态码为: 200
+[2019-10-29 13:59:22,760] - logger.py] - INFO: ----------test.txt is pass----------
+[2019-10-29 13:59:22,761] - logger.py] - INFO: ----------test.txt is end----------
+[2019-10-29 13:59:22,967] - logger.py] - INFO: ----------test.txt is start----------
+[2019-10-29 13:59:22,968] - logger.py] - INFO: 请求的接口地址为: http://klk.9161252.com:801/frontend/v1/login
+[2019-10-29 13:59:22,968] - logger.py] - INFO: 请求的参数为: {'json': {'userName': 'mmmlll', 'password': '1234567822'}}
+[2019-10-29 13:59:22,969] - logger.py] - INFO: 响应内容为: {"sign":1571738210,"code":400,"status":"error","message":"\u5e10\u53f7\u6216\u5bc6\u7801\u9519\u8bef"}
+[2019-10-29 13:59:22,969] - logger.py] - INFO: 响应状态码为: 200
+[2019-10-29 13:59:22,969] - logger.py] - INFO: ----------test.txt is pass----------
+[2019-10-29 13:59:22,970] - logger.py] - INFO: ----------test.txt is end----------
+[2019-10-29 14:00:27,785] - logger.py] - INFO: ----------test.txt is start----------
+[2019-10-29 14:00:27,785] - logger.py] - INFO: 请求的接口地址为: http://klk.9161252.com:801/frontend/v1/login
+[2019-10-29 14:00:27,786] - logger.py] - INFO: 请求的参数为: {'json': {'userName': 'mmmlll', 'password': '1234567822'}}
+[2019-10-29 14:00:27,786] - logger.py] - INFO: 响应内容为: {"sign":1571738210,"code":400,"status":"error","message":"\u5e10\u53f7\u6216\u5bc6\u7801\u9519\u8bef"}
+[2019-10-29 14:00:27,787] - logger.py] - INFO: 响应状态码为: 200
+[2019-10-29 14:00:27,787] - logger.py] - INFO: ----------test.txt is pass----------
+[2019-10-29 14:00:27,787] - logger.py] - INFO: ----------test.txt is end----------
+[2019-10-29 14:00:32,126] - logger.py] - INFO: ----------test.txt is start----------
+[2019-10-29 14:00:32,127] - logger.py] - INFO: 请求的接口地址为: http://klk.9161252.com:801/frontend/v1/login
+[2019-10-29 14:00:32,127] - logger.py] - INFO: 请求的参数为: {'json': {'userName': 'mmmlll', 'password': '1234567822'}}
+[2019-10-29 14:00:32,128] - logger.py] - INFO: 响应内容为: {"sign":1571738210,"code":400,"status":"error","message":"\u7f3a\u5c11\u5fc5\u8981\u7684\u53c2\u6570"}
+[2019-10-29 14:00:32,128] - logger.py] - INFO: 响应状态码为: 200
+[2019-10-29 14:00:32,128] - logger.py] - INFO: ----------test.txt is pass----------
+[2019-10-29 14:00:32,129] - logger.py] - INFO: ----------test.txt is end----------
+[2019-10-29 14:00:36,716] - logger.py] - INFO: ----------test.txt is start----------
+[2019-10-29 14:00:36,716] - logger.py] - INFO: 请求的接口地址为: http://klk.9161252.com:801/frontend/v1/login
+[2019-10-29 14:00:36,717] - logger.py] - INFO: 请求的参数为: {'json': {'userName': 'mmmlll', 'password': '12345678'}}
+[2019-10-29 14:00:36,717] - logger.py] - INFO: 响应内容为: {"sign":1571738210,"code":400,"status":"error","message":"\u7f3a\u5c11\u5fc5\u8981\u7684\u53c2\u6570"}
+[2019-10-29 14:00:36,718] - logger.py] - INFO: 响应状态码为: 200
+[2019-10-29 14:00:36,861] - logger.py] - INFO: ----------test.txt is start----------
+[2019-10-29 14:00:36,862] - logger.py] - INFO: 请求的接口地址为: http://klk.9161252.com:801/frontend/v1/login
+[2019-10-29 14:00:36,862] - logger.py] - INFO: 请求的参数为: {'json': {'userName': 'mmmlll', 'password': '1234567822'}}
+[2019-10-29 14:00:36,863] - logger.py] - INFO: 响应内容为: {"sign":1571738210,"code":400,"status":"error","message":"\u7f3a\u5c11\u5fc5\u8981\u7684\u53c2\u6570"}
+[2019-10-29 14:00:36,863] - logger.py] - INFO: 响应状态码为: 200
+[2019-10-29 14:00:36,863] - logger.py] - INFO: ----------test.txt is pass----------
+[2019-10-29 14:00:36,864] - logger.py] - INFO: ----------test.txt is end----------
+[2019-10-29 14:01:18,039] - logger.py] - INFO: ----------test is start----------
+[2019-10-29 14:01:18,040] - logger.py] - INFO: 请求的接口地址为: http://klk.9161252.com:801/frontend/v1/login
+[2019-10-29 14:01:18,040] - logger.py] - INFO: 请求的参数为: {'json': {'userName': 'mmmlll', 'password': '1234567822'}}
+[2019-10-29 14:01:18,041] - logger.py] - INFO: 响应内容为: {"sign":1571738210,"code":400,"status":"error","message":"\u7f3a\u5c11\u5fc5\u8981\u7684\u53c2\u6570"}
+[2019-10-29 14:01:18,041] - logger.py] - INFO: 响应状态码为: 200
+[2019-10-29 14:01:18,041] - logger.py] - INFO: ----------test is pass----------
+[2019-10-29 14:01:18,042] - logger.py] - INFO: ----------test is end----------
+[2019-10-29 14:11:51,909] - logger.py] - INFO: ----------test is start----------
+[2019-10-29 14:11:51,910] - logger.py] - INFO: 请求的接口地址为: http://klk.9161252.com:801/frontend/v1/login
+[2019-10-29 14:11:51,910] - logger.py] - INFO: 请求的参数为: {'json': {'userName': 'mmmlll', 'password': '1234567822'}}
+[2019-10-29 14:11:51,911] - logger.py] - INFO: 响应内容为: {"sign":1571738210,"code":400,"status":"error","message":"\u7f3a\u5c11\u5fc5\u8981\u7684\u53c2\u6570"}
+[2019-10-29 14:11:51,911] - logger.py] - INFO: 响应状态码为: 200
+[2019-10-29 14:11:51,912] - logger.py] - INFO: ----------test is pass----------
+[2019-10-29 14:11:51,912] - logger.py] - INFO: ----------test is end----------
+[2019-10-29 14:25:00,085] - logger.py] - INFO: ----------test is start----------
+[2019-10-29 14:25:00,085] - logger.py] - INFO: 请求的接口地址为: http://klk.9161252.com:801/frontend/v1/login
+[2019-10-29 14:25:00,086] - logger.py] - INFO: 请求的参数为: {'json': {'userName': 'mmmlll', 'password': '1234567822'}}
+[2019-10-29 14:25:00,086] - logger.py] - INFO: 响应内容为: {"sign":1571738210,"code":400,"status":"error","message":"\u7f3a\u5c11\u5fc5\u8981\u7684\u53c2\u6570"}
+[2019-10-29 14:25:00,087] - logger.py] - INFO: 响应状态码为: 200
+[2019-10-29 14:25:44,329] - logger.py] - INFO: ----------test is start----------
+[2019-10-29 14:25:44,329] - logger.py] - INFO: 请求的接口地址为: http://klk.9161252.com:801/frontend/v1/login
+[2019-10-29 14:25:44,330] - logger.py] - INFO: 请求的参数为: {'json': {'userName': 'mmmlll', 'password': '1234567822'}}
+[2019-10-29 14:25:44,330] - logger.py] - INFO: 响应内容为: {"sign":1571738210,"code":400,"status":"error","message":"\u7f3a\u5c11\u5fc5\u8981\u7684\u53c2\u6570"}
+[2019-10-29 14:25:44,331] - logger.py] - INFO: 响应状态码为: 200
+[2019-10-29 14:26:04,514] - logger.py] - INFO: ----------test is start----------
+[2019-10-29 14:26:04,514] - logger.py] - INFO: 请求的接口地址为: http://klk.9161252.com:801/frontend/v1/login
+[2019-10-29 14:26:04,514] - logger.py] - INFO: 请求的参数为: {'json': {'userName': 'mmmlll', 'password': '1234567822'}}
+[2019-10-29 14:26:04,515] - logger.py] - INFO: 响应内容为: {"sign":1571738210,"code":400,"status":"error","message":"\u7f3a\u5c11\u5fc5\u8981\u7684\u53c2\u6570"}
+[2019-10-29 14:26:04,515] - logger.py] - INFO: 响应状态码为: 200
+[2019-10-29 14:26:43,432] - logger.py] - INFO: ----------test is start----------
+[2019-10-29 14:26:43,432] - logger.py] - INFO: 请求的接口地址为: http://klk.9161252.com:801/frontend/v1/login
+[2019-10-29 14:26:43,432] - logger.py] - INFO: 请求的参数为: {'json': {'userName': 'mmmlll', 'password': '1234567822'}}
+[2019-10-29 14:26:43,433] - logger.py] - INFO: 响应内容为: {"sign":1571738210,"code":400,"status":"error","message":"\u7f3a\u5c11\u5fc5\u8981\u7684\u53c2\u6570"}
+[2019-10-29 14:26:43,433] - logger.py] - INFO: 响应状态码为: 200
+[2019-10-29 14:27:00,145] - logger.py] - INFO: ----------test is start----------
+[2019-10-29 14:27:00,148] - logger.py] - INFO: 请求的接口地址为: http://klk.9161252.com:801/frontend/v1/login
+[2019-10-29 14:27:00,150] - logger.py] - INFO: 请求的参数为: {'json': {'userName': 'mmmlll', 'password': '1234567822'}}
+[2019-10-29 14:27:00,152] - logger.py] - INFO: 响应内容为: {"sign":1571738210,"code":400,"status":"error","message":"\u7f3a\u5c11\u5fc5\u8981\u7684\u53c2\u6570"}
+[2019-10-29 14:27:00,154] - logger.py] - INFO: 响应状态码为: 200
+[2019-10-29 14:27:00,156] - logger.py] - INFO: ----------test is pass----------
+[2019-10-29 14:27:00,157] - logger.py] - INFO: ----------test is end----------
+[2019-10-29 17:34:26,566] - logger.py] - INFO: ----------test is start----------
+[2019-10-29 17:34:26,566] - logger.py] - INFO: 请求的接口地址为: http://klk.9161252.com:801/frontend/v1/login
+[2019-10-29 17:34:26,567] - logger.py] - INFO: 请求的参数为: {'json': {'userName': 'mmmlll', 'password': '12345678', 'code': '/9j/4AAQSkZJRgABAQEAYABgAAD//gA7Q1JFQVRPUjogZ2QtanBlZyB2MS4wICh1c2luZyBJSkcgSlBFRyB2NjIpLCBxdWFsaXR5ID0gOTAK/9sAQwADAgIDAgIDAwMDBAMDBAUIBQUEBAUKBwcGCAwKDAwLCgsLDQ4SEA0OEQ4LCxAWEBETFBUVFQwPFxgWFBgSFBUU/9sAQwEDBAQFBAUJBQUJFA0LDRQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQU/8AAEQgAKACWAwEiAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC//EALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+v/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC//EALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/aAAwDAQACEQMRAD8A+9aKKK+lAKKK4v4wfFHT/g/4FvfEd/E1z5ZWK3tUba08zfdQHt0JJ7AE4PSplJQTlLZFwhKpJQirtnaUV8H6f8cf2hfi88994SspbbTA5Uf2dYRCEEfw+bMDkjuA34Vc8O/tU/FD4T+MLXSvihYS3NhKV80XNmkFwkZOPMiaMBXA57HOCMg1wLH092ml3toeu8prapSi5LonqfclFeHftiarH/wzprkkEoeK8e0EciHhlM8bgg+4Wvl74U/s3fEf4heB7HxP4d8UWun2l00ixwz39xDINjlD9xCOqnvV1cTKFT2cIc2lzPD4KFWj7apU5Ve2q8j9EqK+G/8Ahn39ovRuLLxdeTKOi2/iGYKfwcqK+lfiV8XLL4EfDLT9R18vqGrmCO2htBJ+8u7gIN2W5wAQSzc/iSAbhiG03Ui4pdzKrg1GUY0ZqbfY9Por4Ps/2jfj78S5Zr/wppMsenKxAGmaSJol/wBkySK2W9cH8BXZ/CP9qL4lSfEbSvBfjTwq9xd38oiB+ytZ3UQ6tIVb5WRQCTgLwCcnpWUcdTk0rPXrbQ3nldeEW7xbW6vqfXtFfC/7Xeqa7rX7Ruh6BoGp3FhezWdnYReTcPCvmyzPtLFen+sXJ9BT/wDhUP7TXhr/AI8PEGo6gq9Fj14SL+AmcUnjGpyjGDduxUcui6cJyqqLkr2eh9y0V8xfAC8+O6/ESGy8f/bR4dW2ld2uILZlaQABB5kYznJz17V9O110qntY81mvU86vR9hPk5lLzTugooorY5gooooAKKKKACvm79vPRbzU/g7Y3dsjSQ6fqsU9yFHCoY5EDn6M6j/gVfSNeWftL/EqP4XfCbUtRaxt9SnvGGnwWt4geB3kDZ8xT95Qqucd8Y71z4lRlRkpOysduClKOIg4K7uct+zH8YPBEnwd8O6Ydd0zSb/Trb7PdWV5cpA4cE7nAYjcGJ3ZGfvc85rxf9t34keGviFe+FtD8NXkGv6naSymSawImVfM2KsSsuQzMV6LnGB61gfBn9jjVPi14Zg8UaprkOgWF8zPbQQ2nmySKGILY3KqDIOBzx2HFL8VP2efEP7Lz6X458O+IY9TitbpY/OktFSS3dgdpKksrKcEZ4PI4714054ieHSlC0dNfL0Po6VLCU8Y5QqXnd2XS76Xses/tX21z4Y/ZV8K6Ren/TI5NOsp+c5kS3Yt+sZryX4RftmXHwo8BaR4Xj8Jw6lBYCTNwb8xNJvleQ8eWQPv479K+uPAl7of7Qvws8L6/r+i2l+kn+kmzuU8yGO5jLxOQpyCM78Bs8EV26eFdFjtfsqaPYLbY2+StsgTHpjGK7nQnOarUp2Vktr6HmRxdKlSeHxFPmak29ba7dDyD4Oftc+E/izqkOjSQT+H9cm4htbtg8cx/uxyDGW9iFz2zXz1+2Jr8Hi79oXSvDmpX40/RdLjtraeduVgEpEksuOedjJwOuwU39tD4f6P8LvH3hrW/C1vHos98j3DQWYCJFNC6FZUUcLncOBxlc45NZvjjwvZ/Er9sWTRtfea0s9VuLbzvs7BXGbONlUEg4ydo6d64a9WrOLoT1akl63PUwtChTmsVSuouMnbqrWTPe9J/bK+EfhW0tNE0qLU4dLs0EEDW9htiVBwMAsG9+Vyc1674B+KPgv4sILzw5qlpqlxagkxshS4tw3BJRwGUHpkDB9TXIRfshfCeKw+ynwqJOMGZ7248wn13eZ/Lj2r5X+Ingxv2WP2h/Dlx4cvZ306Yw3cSStl/JaQxywORjcCFPPow7jNdkquIw9pVUnHy6HmwoYTGNxoOSnZvW2pH8dvHkPhn9r+98RS2p1CDRry0cWyybC5ihjON2Dj5we1ez+Hv+CgXha+uUj1jw5qelRscGaCRLlV9yPkOPoCfavdx8HPA7azfatN4W0u81O9lM091eW63Ds56kGTO36DArC8ffs4+AfHuiXNnL4c07TLt0Ihv9PtkgmifHDZQDcAf4WyDQsPiKblKnJau9hyxeDrRhCtB+6kr3/Q7jwp4t0fxxoVtrGhX8WpabcDMc8J49wQeVI7ggEVrV8Vf8E/NdvYPEHi/wAPtKZLHyI7sJnKrKr7CV/3gRn12j0r7Vrsw9b29NTaPMxmH+q15Uk7pBRRRXScQUUUUAFFFFABXjf7Wfw5v/iV8Hb2z0qBrrUrC4j1GC2QZaXYGVlUdzsdyB3IA70UVnVgpwcX1N6FSVKrGcd0z54+B/7ZkPwy8FWnhXxHoF1eDTd0UFzaOok2bidjo2OVJIyD0xxkZOR8c/2nNQ/aDsLLwd4Z8OXNvbT3KSFC3nXN04ztQKowoBOTyScDoAclFfKLE1ZRVFvTY+/eBw9ObxKj72/W1z13xN4Z+Knwc+AXgjRPAtnLPqVgz3OrS2SpPNGzM0nlLGQfMXdIwJUH7g7GvPIv25/iHoEf2TW/CenNfJ8u6WCe3cn/AGkLdfpiiivRxbnhmvZyaVkeNl0aeNjL28E3du/XXUyPDXgv4g/tZ/FCw1/xVYSWPh23KCWYwNDbJArbjDCG5ZmORnJxnJPAFdl+2b8M9b8OeNtL+KPhyKQrB5P2uWBdxtZ4T+6lYf3SAq56Arz94UUVaoxeFlUe71v5oyeJnHHQpRSUV7tulnubnh7/AIKC+Hn0eI654b1OHVQgEi6eY5IHbuQXdWUH0wcep615TYaprf7XX7ROl6kultaaNp7QmSMHettaRuXId8AF3YsBx1YdlJoorhp4ipiZwpVHpc9WthKOBpVK9FWlb7jrvEX7Unxe+E/jPVU8VeGYzpc907W9pdwlFijz8qw3CfK4wOp3c56dKoeMP289f8UaDPpWgeFo9F1C7QwC7+2NcyLuGMxqI0w3PBOcelFFKriK1Ocqam7BhsHhq9KNaVNXt0vb7rnq37FnwY1T4c+GNT13XrV7HVNZMaxWky7ZIYEyQWHVWYsTtPICr3JFfSVFFfSUKcaVOMYnxmKqyr1pVJ73CiiitjlCiiigD//Z', 'captcha_key': 'GDYBG9qb24RCJR0'}}
+[2019-10-29 17:34:26,570] - logger.py] - INFO: 响应内容为: {"sign":1571738210,"code":400,"status":"error","message":"\u9a8c\u8bc1\u7801 \u5fc5\u987b\u5168\u90e8\u7531\u5b57\u6bcd\u548c\u6570\u5b57\u6784\u6210"}
+[2019-10-29 17:34:26,570] - logger.py] - INFO: 响应状态码为: 200
+[2019-10-29 17:37:03,890] - logger.py] - INFO: ----------test is start----------
+[2019-10-29 17:37:03,890] - logger.py] - INFO: 请求的接口地址为: http://klk.9161252.com:801/frontend/v1/login
+[2019-10-29 17:37:03,891] - logger.py] - INFO: 请求的参数为: {'json': {'userName': 'mmmlll', 'password': '12345678'}}
+[2019-10-29 17:37:03,891] - logger.py] - INFO: 响应内容为: {"sign":1571738210,"code":400,"status":"error","message":"\u7f3a\u5c11\u5fc5\u8981\u7684\u53c2\u6570"}
+[2019-10-29 17:37:03,891] - logger.py] - INFO: 响应状态码为: 200
+[2019-10-29 19:15:13,082] - logger.py] - INFO: ----------test is start----------
+[2019-10-29 19:15:13,082] - logger.py] - INFO: 请求的接口地址为: http://klk.9161252.com:801/frontend/v1/login
+[2019-10-29 19:15:13,083] - logger.py] - INFO: 请求的参数为: {'json': {'userName': 'mmmlll', 'password': '12345678', 'code': '4329', 'captcha_key': 'V5HkH0qpNH0HcFi'}}
+[2019-10-29 19:15:13,083] - logger.py] - INFO: 响应内容为: {"sign":1571738210,"code":200,"status":"success","message":"\u6210\u529f","data":{"userInfo":{"uid":1101051,"userName":"mmmlll","balance":"12.10","phone":"*******-","email":"12378796@163.com","wechat":"5854444","realName":"\u7231\u795e\u7684\u7bad\u540e\u65b9\u53ef","pic":"photo24.png","lastTime":1572342600,"levelId":1,"levelName":"VIP1","payPassword":"set","cardNum":"set","rebate":"{\"1\":\"1.5\",\"2\":\"1.5\",\"3\":\"1.5\",\"4\":\"1.5\",\"5\":\"1.5\",\"6\":\"1.5\",\"7\":\"1.5\",\"9\":\"1.5\",\"10\":\"1.5\",\"11\":\"1.5\",\"12\":\"1.5\",\"13\":\"1.5\",\"14\":\"1.5\",\"15\":\"1.5\",\"16\":\"1.5\",\"17\":\"1.5\",\"18\":\"1.5\",\"19\":\"1.5\",\"20\":\"1.5\",\"21\":\"1.5\",\"22\":\"1.5\",\"23\":\"1.5\",\"24\":\"1.5\",\"25\":\"1.5\",\"26\":\"1.5\",\"27\":\"1.5\",\"28\":\"1.5\",\"29\":\"1.5\",\"2900\":\"1.5\",\"2901\":\"1.5\",\"2902\":\"1.5\",\"2903\":\"1.5\",\"2904\":\"1.5\",\"2905\":\"1.5\",\"2906\":\"1.5\",\"3630\":\"1.5\",\"3631\":\"1.5\",\"3632\":\"1.5\",\"10044\":\"1.5\",\"10045\":\"1.5\"}","lastIp":"180.232.7.98","secret":"\u6700\u559c\u7231\u7684\u8fd0\u52a8?","agencyInfo":{"uid":1101051,"balance":"0.28","levelId":1,"levelName":"VIP1","agencyType":"agency","status":"yes","lock":"no","active":"yes"},"status":"yes","is_agency":1,"userType":"v1"},"token":"bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8va2xrLjkxNjEyNTIuY29tL2Zyb250ZW5kL3YxL2xvZ2luIiwiaWF0IjoxNTcyMzQ3NzE2LCJleHAiOjE1NzIzOTA5MTYsIm5iZiI6MTU3MjM0NzcxNiwianRpIjoibHRLYUEwQVZhSHFVeENkUyIsInN1YiI6MTEwMTA1MSwicHJ2IjoiODI0NGEwMmU0MWJmMDBmNmQwMDZkODUxNWI1YzZmNjE1YmVmZDI5NiIsInNpZCI6M30.6Yhdnk09knzhzinz9tPQxbl3ragJ4R0_Bau44S30WIo"}}
+[2019-10-29 19:15:13,084] - logger.py] - INFO: 响应状态码为: 200
+[2019-10-29 19:15:13,084] - logger.py] - INFO: ----------test is pass----------
+[2019-10-29 19:15:13,084] - logger.py] - INFO: ----------test is end----------
+[2019-10-29 19:16:54,420] - logger.py] - INFO: ----------test is start----------
+[2019-10-29 19:16:54,421] - logger.py] - INFO: 请求的接口地址为: http://klk.9161252.com:801/frontend/v1/login
+[2019-10-29 19:16:54,422] - logger.py] - INFO: 请求的参数为: {'json': {'userName': 'mmmlll', 'password': '12345678', 'code': '5192', 'captcha_key': 'xLbF5qeLJwePl7Y'}}
+[2019-10-29 19:16:54,422] - logger.py] - INFO: 响应内容为: {"sign":1571738210,"code":200,"status":"success","message":"\u6210\u529f","data":{"userInfo":{"uid":1101051,"userName":"mmmlll","balance":"12.10","phone":"*******-","email":"12378796@163.com","wechat":"5854444","realName":"\u7231\u795e\u7684\u7bad\u540e\u65b9\u53ef","pic":"photo24.png","lastTime":1572347716,"levelId":1,"levelName":"VIP1","payPassword":"set","cardNum":"set","rebate":"{\"1\":\"1.5\",\"2\":\"1.5\",\"3\":\"1.5\",\"4\":\"1.5\",\"5\":\"1.5\",\"6\":\"1.5\",\"7\":\"1.5\",\"9\":\"1.5\",\"10\":\"1.5\",\"11\":\"1.5\",\"12\":\"1.5\",\"13\":\"1.5\",\"14\":\"1.5\",\"15\":\"1.5\",\"16\":\"1.5\",\"17\":\"1.5\",\"18\":\"1.5\",\"19\":\"1.5\",\"20\":\"1.5\",\"21\":\"1.5\",\"22\":\"1.5\",\"23\":\"1.5\",\"24\":\"1.5\",\"25\":\"1.5\",\"26\":\"1.5\",\"27\":\"1.5\",\"28\":\"1.5\",\"29\":\"1.5\",\"2900\":\"1.5\",\"2901\":\"1.5\",\"2902\":\"1.5\",\"2903\":\"1.5\",\"2904\":\"1.5\",\"2905\":\"1.5\",\"2906\":\"1.5\",\"3630\":\"1.5\",\"3631\":\"1.5\",\"3632\":\"1.5\",\"10044\":\"1.5\",\"10045\":\"1.5\"}","lastIp":"180.232.7.117","secret":"\u6700\u559c\u7231\u7684\u8fd0\u52a8?","agencyInfo":{"uid":1101051,"balance":"0.28","levelId":1,"levelName":"VIP1","agencyType":"agency","status":"yes","lock":"no","active":"yes"},"status":"yes","is_agency":1,"userType":"v1"},"token":"bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8va2xrLjkxNjEyNTIuY29tL2Zyb250ZW5kL3YxL2xvZ2luIiwiaWF0IjoxNTcyMzQ3ODE3LCJleHAiOjE1NzIzOTEwMTcsIm5iZiI6MTU3MjM0NzgxNywianRpIjoiQlBFTWRQWnFvc1JzQ2VTRSIsInN1YiI6MTEwMTA1MSwicHJ2IjoiODI0NGEwMmU0MWJmMDBmNmQwMDZkODUxNWI1YzZmNjE1YmVmZDI5NiIsInNpZCI6M30.JXJBc4UlCaoRnuLTslP6Nmn5CClcgsIZw8VgmlRUGCQ"}}
+[2019-10-29 19:16:54,423] - logger.py] - INFO: 响应状态码为: 200
+[2019-10-29 19:16:54,423] - logger.py] - INFO: ----------test is pass----------
+[2019-10-29 19:16:54,423] - logger.py] - INFO: ----------test is end----------
+[2019-10-29 19:17:17,903] - logger.py] - INFO: ----------test is start----------
+[2019-10-29 19:17:17,904] - logger.py] - INFO: 请求的接口地址为: http://klk.9161252.com:801/frontend/v1/login
+[2019-10-29 19:17:17,904] - logger.py] - INFO: 请求的参数为: {'json': {'userName': 'mmmlll', 'password': '12345678', 'code': '440', 'captcha_key': '32D5UCqFJnda2AL'}}
+[2019-10-29 19:17:17,904] - logger.py] - INFO: 响应内容为: {"sign":1571738210,"code":400,"status":"error","message":"\u9a8c\u8bc1\u7801 \u7684\u6700\u5c0f\u957f\u5ea6\u4e3a 4 \u5b57\u7b26"}
+[2019-10-29 19:17:17,904] - logger.py] - INFO: 响应状态码为: 200
+[2019-10-29 19:32:05,092] - logger.py] - INFO: ----------test is start----------
+[2019-10-29 19:32:05,094] - logger.py] - INFO: 请求的接口地址为: http://klk.9161252.com:801/frontend/v1/login
+[2019-10-29 19:32:05,095] - logger.py] - INFO: 请求的参数为: {'json': {'userName': 'mmmlll', 'password': '12345678', 'code': '3420', 'captcha_key': 'gFRUugpBHRtFu9n'}}
+[2019-10-29 19:32:05,095] - logger.py] - INFO: 响应内容为: {"sign":1571738210,"code":200,"status":"success","message":"\u6210\u529f","data":{"userInfo":{"uid":1101051,"userName":"mmmlll","balance":"12.10","phone":"*******-","email":"12378796@163.com","wechat":"5854444","realName":"\u7231\u795e\u7684\u7bad\u540e\u65b9\u53ef","pic":"photo24.png","lastTime":1572347817,"levelId":1,"levelName":"VIP1","payPassword":"set","cardNum":"set","rebate":"{\"1\":\"1.5\",\"2\":\"1.5\",\"3\":\"1.5\",\"4\":\"1.5\",\"5\":\"1.5\",\"6\":\"1.5\",\"7\":\"1.5\",\"9\":\"1.5\",\"10\":\"1.5\",\"11\":\"1.5\",\"12\":\"1.5\",\"13\":\"1.5\",\"14\":\"1.5\",\"15\":\"1.5\",\"16\":\"1.5\",\"17\":\"1.5\",\"18\":\"1.5\",\"19\":\"1.5\",\"20\":\"1.5\",\"21\":\"1.5\",\"22\":\"1.5\",\"23\":\"1.5\",\"24\":\"1.5\",\"25\":\"1.5\",\"26\":\"1.5\",\"27\":\"1.5\",\"28\":\"1.5\",\"29\":\"1.5\",\"2900\":\"1.5\",\"2901\":\"1.5\",\"2902\":\"1.5\",\"2903\":\"1.5\",\"2904\":\"1.5\",\"2905\":\"1.5\",\"2906\":\"1.5\",\"3630\":\"1.5\",\"3631\":\"1.5\",\"3632\":\"1.5\",\"10044\":\"1.5\",\"10045\":\"1.5\"}","lastIp":"180.232.7.117","secret":"\u6700\u559c\u7231\u7684\u8fd0\u52a8?","agencyInfo":{"uid":1101051,"balance":"0.28","levelId":1,"levelName":"VIP1","agencyType":"agency","status":"yes","lock":"no","active":"yes"},"status":"yes","is_agency":1,"userType":"v1"},"token":"bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8va2xrLjkxNjEyNTIuY29tL2Zyb250ZW5kL3YxL2xvZ2luIiwiaWF0IjoxNTcyMzQ4NzI4LCJleHAiOjE1NzIzOTE5MjgsIm5iZiI6MTU3MjM0ODcyOCwianRpIjoiY1FnNTVwQ3dReXpIRkRkMyIsInN1YiI6MTEwMTA1MSwicHJ2IjoiODI0NGEwMmU0MWJmMDBmNmQwMDZkODUxNWI1YzZmNjE1YmVmZDI5NiIsInNpZCI6M30.Xezr1GIAHgcBnf46XTzZwTz3TvgHMUKi4Kvl8fbVNPo"}}
+[2019-10-29 19:32:05,096] - logger.py] - INFO: 响应状态码为: 200
+[2019-10-29 19:32:05,096] - logger.py] - INFO: ----------test is pass----------
+[2019-10-29 19:32:05,096] - logger.py] - INFO: ----------test is end----------
+[2019-10-29 19:35:28,045] - logger.py] - INFO: ----------test is start----------
+[2019-10-29 19:35:28,046] - logger.py] - INFO: 请求的接口地址为: http://klk.9161252.com:801/frontend/v1/login
+[2019-10-29 19:35:28,046] - logger.py] - INFO: 请求的参数为: {'json': {'userName': 'mmmlll', 'password': '1234567822', 'code': '4618', 'captcha_key': 'mZpll8lUDmd6KJw'}}
+[2019-10-29 19:35:28,046] - logger.py] - INFO: 响应内容为: {"sign":1571738210,"code":400,"status":"error","message":"\u5e10\u53f7\u6216\u5bc6\u7801\u9519\u8bef"}
+[2019-10-29 19:35:28,047] - logger.py] - INFO: 响应状态码为: 200
+[2019-10-29 19:35:28,047] - logger.py] - INFO: ----------test is pass----------
+[2019-10-29 19:35:28,047] - logger.py] - INFO: ----------test is end----------
+[2019-10-29 19:41:32,647] - logger.py] - INFO: ----------test is start----------
+[2019-10-29 19:41:32,648] - logger.py] - INFO: 请求的接口地址为: http://klk.9161252.com:801/frontend/v1/login
+[2019-10-29 19:41:32,648] - logger.py] - INFO: 请求的参数为: {'json': {'userName': 'mmmlll', 'password': '12345678', 'code': '6440', 'captcha_key': 'mOEy7pwx22Tw3FM'}}
+[2019-10-29 19:41:32,648] - logger.py] - INFO: 响应内容为: {"sign":1571738210,"code":200,"status":"success","message":"\u6210\u529f","data":{"userInfo":{"uid":1101051,"userName":"mmmlll","balance":"12.10","phone":"*******-","email":"12378796@163.com","wechat":"5854444","realName":"\u7231\u795e\u7684\u7bad\u540e\u65b9\u53ef","pic":"photo24.png","lastTime":1572348728,"levelId":1,"levelName":"VIP1","payPassword":"set","cardNum":"set","rebate":"{\"1\":\"1.5\",\"2\":\"1.5\",\"3\":\"1.5\",\"4\":\"1.5\",\"5\":\"1.5\",\"6\":\"1.5\",\"7\":\"1.5\",\"9\":\"1.5\",\"10\":\"1.5\",\"11\":\"1.5\",\"12\":\"1.5\",\"13\":\"1.5\",\"14\":\"1.5\",\"15\":\"1.5\",\"16\":\"1.5\",\"17\":\"1.5\",\"18\":\"1.5\",\"19\":\"1.5\",\"20\":\"1.5\",\"21\":\"1.5\",\"22\":\"1.5\",\"23\":\"1.5\",\"24\":\"1.5\",\"25\":\"1.5\",\"26\":\"1.5\",\"27\":\"1.5\",\"28\":\"1.5\",\"29\":\"1.5\",\"2900\":\"1.5\",\"2901\":\"1.5\",\"2902\":\"1.5\",\"2903\":\"1.5\",\"2904\":\"1.5\",\"2905\":\"1.5\",\"2906\":\"1.5\",\"3630\":\"1.5\",\"3631\":\"1.5\",\"3632\":\"1.5\",\"10044\":\"1.5\",\"10045\":\"1.5\"}","lastIp":"180.232.7.117","secret":"\u6700\u559c\u7231\u7684\u8fd0\u52a8?","agencyInfo":{"uid":1101051,"balance":"0.28","levelId":1,"levelName":"VIP1","agencyType":"agency","status":"yes","lock":"no","active":"yes"},"status":"yes","is_agency":1,"userType":"v1"},"token":"bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8va2xrLjkxNjEyNTIuY29tL2Zyb250ZW5kL3YxL2xvZ2luIiwiaWF0IjoxNTcyMzQ5Mjk1LCJleHAiOjE1NzIzOTI0OTUsIm5iZiI6MTU3MjM0OTI5NSwianRpIjoiOFBwWDB4am5BWXcyU28ybCIsInN1YiI6MTEwMTA1MSwicHJ2IjoiODI0NGEwMmU0MWJmMDBmNmQwMDZkODUxNWI1YzZmNjE1YmVmZDI5NiIsInNpZCI6M30.Zoj5GHtNcTaNciLsC9Xk8OwAbvmscJ_wSPl3UIVi2fM"}}
+[2019-10-29 19:41:32,649] - logger.py] - INFO: 响应状态码为: 200
+[2019-10-29 19:41:32,649] - logger.py] - INFO: ----------test is pass----------
+[2019-10-29 19:41:32,649] - logger.py] - INFO: ----------test is end----------
+[2019-10-29 20:02:36,982] - logger.py] - INFO: ----------test is start----------
+[2019-10-29 20:02:36,983] - logger.py] - INFO: 请求的接口地址为: http://klk.9161252.com:801/frontend/v1/login
+[2019-10-29 20:02:36,983] - logger.py] - INFO: 请求的参数为: {'json': {'userName': 'mmmlll', 'password': '1234567822', 'code': '2958', 'captcha_key': 'CfuDhGDkgOB0XPi'}}
+[2019-10-29 20:02:36,984] - logger.py] - INFO: 响应内容为: {"sign":1571738210,"code":400,"status":"error","message":"\u9a8c\u8bc1\u7801\u9519\u8bef"}
+[2019-10-29 20:02:36,984] - logger.py] - INFO: 响应状态码为: 200
+[2019-10-29 20:02:36,984] - logger.py] - INFO: ----------test is pass----------
+[2019-10-29 20:02:36,985] - logger.py] - INFO: ----------test is end----------
+[2019-10-29 20:03:32,849] - logger.py] - INFO: ----------test is start----------
+[2019-10-29 20:03:32,850] - logger.py] - INFO: 请求的接口地址为: http://klk.9161252.com:801/frontend/v1/login
+[2019-10-29 20:03:32,850] - logger.py] - INFO: 请求的参数为: {'json': {'userName': 'mmmlll', 'password': '12345678', 'code': '1304', 'captcha_key': 'cgSM0KrmLJ4UkER'}}
+[2019-10-29 20:03:32,850] - logger.py] - INFO: 响应内容为: {"sign":1571738210,"code":400,"status":"error","message":"\u9a8c\u8bc1\u7801\u9519\u8bef"}
+[2019-10-29 20:03:32,851] - logger.py] - INFO: 响应状态码为: 200
+[2019-10-29 20:04:15,592] - logger.py] - INFO: ----------test is start----------
+[2019-10-29 20:04:15,592] - logger.py] - INFO: 请求的接口地址为: http://klk.9161252.com:801/frontend/v1/login
+[2019-10-29 20:04:15,592] - logger.py] - INFO: 请求的参数为: {'json': {'userName': 'mmmlll', 'password': '12345678', 'code': '9517', 'captcha_key': 'nCTfwd7rp0ZBqPv'}}
+[2019-10-29 20:04:15,593] - logger.py] - INFO: 响应内容为: {"sign":1571738210,"code":400,"status":"error","message":"\u9a8c\u8bc1\u7801\u9519\u8bef"}
+[2019-10-29 20:04:15,593] - logger.py] - INFO: 响应状态码为: 200
