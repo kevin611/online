@@ -1,17 +1,16 @@
 import unittest
 from common import base, logger
 from data.readexcel import ExcelUtil
-from case.bet_record.lottery.last_month import get_last_month_list
+from case.bet_record.slot.last_month import get_last_month_list
 
 
 data = ExcelUtil("betrecord").dict_data()
 class BetRecordList(unittest.TestCase):
-	'''测试获取彩票上月投注记录'''
+	'''测试获取电子上月投注记录'''
 	def setUp(self):
 		self.log = logger.Log()
-
 	def test_get_lotterylist_this_week(self):
-		res = get_last_month_list.BetRecord().get_betrecord_list() # 上月彩票投注记录
+		res = get_last_month_list.BetRecord().get_betrecord_list() # 上月电子投注记录
 		self.log.info("----------test is start----------")
 		self.log.info("请求的接口地址为 %s" %res.url)
 		self.log.info("响应内容为: %s" % res.json())
