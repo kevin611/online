@@ -9,7 +9,7 @@ class BetRecord():
 		self.token = get_token.GetRes().get_res()
 
 	def get_betrecord_list(self):
-		'''获取本周彩票注单列表'''
+		'''获取本月彩票注单列表'''
 		route = data[0]["route"]
 		url = "".join(base.get_url(route))
 		Method = data[0]["method"]
