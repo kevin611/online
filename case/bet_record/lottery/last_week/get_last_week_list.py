@@ -15,10 +15,11 @@ class BetRecord():
 		Method = data[0]["method"]
 		params = eval(data[0]["params"])
 		today = datetime.date.today()
-		params["time_start"] = today - datetime.timedelta(days=today.weekday())  # 周一，开始时间
-		params["time_end"] = today  # 今天，结束时间
+		params["time_start"] = today - datetime.timedelta(days=today.weekday() + 7)  # 上周一，开始时间
+		params["time_end"] = today - datetime.timedelta(days=today.weekday() + 1)  # 上周日，结束时间
 		headers = {"Authorization": self.token}
 		kwargs = {"params": params, "headers": headers}
 		resp = base.get_response(url, Method, **kwargs)
 		return resp
+
 
