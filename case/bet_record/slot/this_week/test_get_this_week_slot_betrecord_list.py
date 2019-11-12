@@ -9,7 +9,7 @@ class BetRecordList(unittest.TestCase):
 
 	def setUp(self):
 		self.log = logger.Log()
-	def test_get_lotterylist_this_week(self):
+	def test_get_slotlist_this_week(self):
 		'''测试获取电子本周投注记录'''
 		res = get_this_week_list.BetRecord().get_betrecord_list() # 本周电子投注记录
 		self.log.info("----------test is start----------")
