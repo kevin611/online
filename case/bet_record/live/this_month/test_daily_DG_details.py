@@ -6,7 +6,7 @@ from case.bet_record.lottery.this_month import get_this_month_list
 
 
 data = ExcelUtil("betrecord").dict_data()
-class BetRecord115(unittest.TestCase):
+class BetRecordDG(unittest.TestCase):
 	def setUp(self):
 		# self.token = get_token.GetRes().get_res()
 		self.log = logger.Log()

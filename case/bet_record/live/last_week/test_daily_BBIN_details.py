@@ -6,7 +6,7 @@ from case.bet_record.lottery.last_week import get_last_week_list
 
 
 data = ExcelUtil("betrecord").dict_data()
-class BetRecord115(unittest.TestCase):
+class BetRecordBBIN(unittest.TestCase):
 	def setUp(self):
 		# self.token = get_token.GetRes().get_res()
 		self.log = logger.Log()
