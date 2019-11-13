@@ -6,10 +6,11 @@ from case.bet_record.chess.last_week import get_last_week_list
 
 data = ExcelUtil("betrecord").dict_data()
 class BetRecordVG(unittest.TestCase):
+	'''测试获取上周每天的VG棋牌投注详情'''
 	def setUp(self):
 		self.log = logger.Log()
 	def test_VG_bet_details_daily(self):
-		'''测试获取上周每天的VG棋牌投注详情'''
+
 		route = data[224]["route"]
 		url = "".join(base.get_url(route))
 		Method = data[224]["method"]

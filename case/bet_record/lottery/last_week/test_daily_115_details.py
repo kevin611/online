@@ -6,11 +6,12 @@ from case.bet_record.lottery.last_week import get_last_week_list
 data = ExcelUtil("betrecord").dict_data()
 
 class BetRecord115(unittest.TestCase):
+	'''测试获取本周每天的11选5投注详情'''
 	def setUp(self):
 		# self.token = get_token.GetRes().get_res()
 		self.log = logger.Log()
 	def test_115_bet_details_daily(self):
-		'''测试获取本周每天的11选5投注详情'''
+
 		route = data[23]["route"]
 		url = "".join(base.get_url(route))
 		Method = data[23]["method"]

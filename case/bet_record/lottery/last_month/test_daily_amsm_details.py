@@ -5,10 +5,11 @@ from case.bet_record.lottery.last_month import get_last_month_list
 
 data = ExcelUtil("betrecord").dict_data()
 class BetRecordAmsm(unittest.TestCase):
+	'''测试获取上月每天的快乐飞艇投注详情'''
 	def setUp(self):
 		self.log = logger.Log()
 	def test_amsm_bet_details_daily(self):
-		'''测试获取上月每天的快乐飞艇投注详情'''
+
 		route = data[72]["route"]
 		url = "".join(base.get_url(route))
 		Method = data[72]["method"]

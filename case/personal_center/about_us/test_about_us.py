@@ -5,6 +5,7 @@ from data.readexcel import ExcelUtil
 
 data = ExcelUtil("personal_center").dict_data()
 class AboutUs(unittest.TestCase):
+	'''测试关于我们'''
 	def setUp(self):
 		self.log = logger.Log()
 		self.token = get_token.GetRes().get_res()

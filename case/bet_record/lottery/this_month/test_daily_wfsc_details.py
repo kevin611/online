@@ -5,10 +5,11 @@ from case.bet_record.lottery.this_month import get_this_month_list
 
 data = ExcelUtil("betrecord").dict_data()
 class BetRecordWfsc(unittest.TestCase):
+	'''测试获取本月每天的幸运赛马投注详情'''
 	def setUp(self):
 		self.log = logger.Log()
 	def test_wfsc_bet_details_daily(self):
-		'''测试获取本月每天的幸运赛马投注详情'''
+
 		route = data[49]["route"]
 		url = "".join(base.get_url(route))
 		Method = data[49]["method"]

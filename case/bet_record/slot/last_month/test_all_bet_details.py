@@ -7,11 +7,12 @@ from case.bet_record.slot.last_month import get_last_month_list
 
 data = ExcelUtil("betrecord").dict_data()
 class BetRecord(unittest.TestCase):
+	'''测试获取上月每天的全部投注详情'''
 	def setUp(self):
 		# self.token = get_token.GetRes().get_res()
 		self.log = logger.Log()
 	def test_all_bet_details(self):
-		'''测试获取上月每天的全部投注详情'''
+
 		route = data[176]["route"]
 		url = "".join(base.get_url(route))
 		Method = data[176]["method"]

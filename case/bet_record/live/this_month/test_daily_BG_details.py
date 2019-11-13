@@ -7,11 +7,12 @@ from case.bet_record.lottery.this_month import get_this_month_list
 
 data = ExcelUtil("betrecord").dict_data()
 class BetRecordBG(unittest.TestCase):
+	'''测试获取本月每天的BG投注详情'''
 	def setUp(self):
 		# self.token = get_token.GetRes().get_res()
 		self.log = logger.Log()
 	def test_BG_bet_details_daily(self):
-		'''测试获取本月每天的BG投注详情'''
+
 		route = data[114]["route"]
 		url = "".join(base.get_url(route))
 		Method = data[114]["method"]

@@ -8,6 +8,7 @@ class InviteFriends(unittest.TestCase):
 	def setUp(self):
 		self.log = logger.Log()
 		self.token = get_token.GetRes().get_res()
+
 	def test_invite_friends(self):
 		route = data[30]["route"]
 		url = "".join(base.get_url(route))

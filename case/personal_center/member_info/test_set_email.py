@@ -2,12 +2,14 @@ import unittest
 from common import base, logger, get_token
 from data.readexcel import ExcelUtil
 
+
 data = ExcelUtil("personal_center").dict_data()
 class Email(unittest.TestCase):
 	'''测试设置邮箱'''
 	def setUp(self):
 		self.log = logger.Log()
 		self.token = get_token.GetRes().get_res()
+
 	def test_set_email(self):
 		route = data[35]["route"]
 		url = "".join(base.get_url(route))

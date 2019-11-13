@@ -6,10 +6,11 @@ from case.bet_record.sport.last_week import get_last_week_list
 
 data = ExcelUtil("betrecord").dict_data()
 class BetRecordList(unittest.TestCase):
+	'''测试获取体育上周投注记录'''
 	def setUp(self):
 		self.log = logger.Log()
 	def test_get_sportlist_last_week(self):
-		'''测试获取体育上周投注记录'''
+
 		res = get_last_week_list.BetRecord().get_betrecord_list() # 上周体育投注记录
 		self.log.info("----------test is start----------")
 		self.log.info("请求的接口地址为 %s" %res.url)

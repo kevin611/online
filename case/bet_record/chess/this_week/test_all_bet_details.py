@@ -6,11 +6,12 @@ from case.bet_record.chess.this_week import get_this_week_list
 
 data = ExcelUtil("betrecord").dict_data()
 class BetRecord(unittest.TestCase):
+	'''测试获取本周每天的全部投注详情'''
 	def setUp(self):
 		# self.token = get_token.GetRes().get_res()
 		self.log = logger.Log()
 	def test_all_bet_details(self):
-		'''测试获取本周每天的全部投注详情'''
+
 		route = data[213]["route"]
 		url = "".join(base.get_url(route))
 		Method = data[213]["method"]

@@ -6,11 +6,11 @@ from case.bet_record.slot.this_week import get_this_week_list
 
 data = ExcelUtil("betrecord").dict_data()
 class BetRecordList(unittest.TestCase):
-
+	'''测试获取电子本周投注记录'''
 	def setUp(self):
 		self.log = logger.Log()
 	def test_get_slotlist_this_week(self):
-		'''测试获取电子本周投注记录'''
+
 		res = get_this_week_list.BetRecord().get_betrecord_list() # 本周电子投注记录
 		self.log.info("----------test is start----------")
 		self.log.info("请求的接口地址为 %s" %res.url)

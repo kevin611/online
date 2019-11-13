@@ -6,11 +6,12 @@ from case.bet_record.lottery.last_month import get_last_month_list
 data = ExcelUtil("betrecord").dict_data()
 
 class BetRecordBjsc(unittest.TestCase):
+	'''测试获取上月每天的北京赛车投注详情'''
 	def setUp(self):
 		# self.token = get_token.GetRes().get_res()
 		self.log = logger.Log()
 	def test_bjsc_bet_details_daily(self):
-		'''测试获取上月每天的北京赛车投注详情'''
+
 		route = data[67]["route"]
 		url = "".join(base.get_url(route))
 		Method = data[67]["method"]

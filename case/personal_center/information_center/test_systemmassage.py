@@ -6,12 +6,12 @@ from data.readexcel import ExcelUtil
 
 data = ExcelUtil("personal_center").dict_data()
 class SystemMassage(unittest.TestCase):
+	'''获取所有系统信息'''
 	def setUp(self):
 		self.log = logger.Log()
 		self.token = get_token.GetRes().get_res()
 
 	def test_system_massage(self):
-		'''获取所有系统信息'''
 		route = data[4]["route"]
 		url = "".join(base.get_url(route))
 		Method = data[4]["method"]

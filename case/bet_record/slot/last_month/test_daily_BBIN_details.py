@@ -3,13 +3,16 @@ from common import base, logger,get_token
 from data.readexcel import ExcelUtil
 from case.bet_record.slot.last_month import get_last_month_list
 
+
+
 data = ExcelUtil("betrecord").dict_data()
 class BetRecordBBIN(unittest.TestCase):
+	'''测试获取上月每天的BBIN电子投注详情'''
 	def setUp(self):
 		# self.token = get_token.GetRes().get_res()
 		self.log = logger.Log()
 	def test_BBIN_bet_details_daily(self):
-		'''测试获取上月每天的BBIN电子投注详情'''
+
 		route = data[182]["route"]
 		url = "".join(base.get_url(route))
 		Method = data[182]["method"]

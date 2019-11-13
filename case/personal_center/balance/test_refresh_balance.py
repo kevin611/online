@@ -2,13 +2,15 @@ import unittest
 from common import base, logger, get_token
 from data.readexcel import ExcelUtil
 
+
 data = ExcelUtil("personal_center").dict_data() # 读取登出数据
 class RefreshBalance(unittest.TestCase):
+	'''刷新会员余额'''
 	def setUp(self):
 		self.log = logger.Log()
 		self.token = get_token.GetRes().get_res()
+
 	def test_refresh_balance(self):
-		'''刷新会员余额'''
 		route = data[1]["route"]
 		url = "".join(base.get_url(route))
 		Method = data[1]["method"]

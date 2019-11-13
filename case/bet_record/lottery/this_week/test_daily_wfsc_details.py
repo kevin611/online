@@ -3,12 +3,15 @@ from common import base, logger,get_token
 from data.readexcel import ExcelUtil
 from case.bet_record.lottery.this_week import get_this_week_list
 
+
+
 data = ExcelUtil("betrecord").dict_data()
 class BetRecordWfsc(unittest.TestCase):
+	'''测试获取本周每天的幸运赛马投注详情'''
 	def setUp(self):
 		self.log = logger.Log()
 	def test_wfsc_bet_details_daily(self):
-		'''测试获取本周每天的幸运赛马投注详情'''
+
 		route = data[7]["route"]
 		url = "".join(base.get_url(route))
 		Method = data[7]["method"]

@@ -6,11 +6,12 @@ from case.bet_record.slot.this_month import get_this_month_list
 
 data = ExcelUtil("betrecord").dict_data()
 class BetRecordJDB(unittest.TestCase):
+	'''测试获取本月每天的JDB电子投注详情'''
 	def setUp(self):
 		# self.token = get_token.GetRes().get_res()
 		self.log = logger.Log()
 	def test_JDB_bet_details_daily(self):
-		'''测试获取本月每天的JDB电子投注详情'''
+
 		route = data[168]["route"]
 		url = "".join(base.get_url(route))
 		Method = data[168]["method"]

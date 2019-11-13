@@ -6,10 +6,11 @@ from case.bet_record.slot.last_week import get_last_week_list
 
 data = ExcelUtil("betrecord").dict_data()
 class BetRecordJDB(unittest.TestCase):
+	'''测试获取上周每天的JDB电子投注详情'''
 	def setUp(self):
 		self.log = logger.Log()
 	def test_JDB_bet_details_daily(self):
-		'''测试获取上周每天的JDB电子投注详情'''
+
 		route = data[155]["route"]
 		url = "".join(base.get_url(route))
 		Method = data[155]["method"]

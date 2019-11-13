@@ -6,10 +6,11 @@ from case.bet_record.slot.last_week import get_last_week_list
 
 data = ExcelUtil("betrecord").dict_data()
 class BetRecordAE(unittest.TestCase):
+	'''测试获取上周每天的AE电子投注详情'''
 	def setUp(self):
 		self.log = logger.Log()
 	def test_AE_bet_details_daily(self):
-		'''测试获取上周每天的AE电子投注详情'''
+
 		route = data[159]["route"]
 		url = "".join(base.get_url(route))
 		Method = data[159]["method"]

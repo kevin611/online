@@ -2,15 +2,16 @@ import unittest,time,datetime
 from common import base, logger,get_token
 from data.readexcel import ExcelUtil
 
-data = ExcelUtil("personal_center").dict_data()
 
+
+data = ExcelUtil("personal_center").dict_data()
 class withdrawals(unittest.TestCase):
+	'''获取上周提现记录'''
 	def setUp(self):
 		self.log = logger.Log()
 		self.token = get_token.GetRes().get_res()
 
 	def test_withdrawals_lastweek(self):
-		'''获取上周提现记录'''
 		route = data[6]["route"]
 		url = "".join(base.get_url(route))
 		Method = data[6]["method"]

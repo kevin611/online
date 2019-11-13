@@ -2,15 +2,15 @@ import unittest,datetime
 from common import base, logger,get_token
 from data.readexcel import ExcelUtil
 
-data = ExcelUtil("personal_center").dict_data()
 
+data = ExcelUtil("personal_center").dict_data()
 class Deposit(unittest.TestCase):
+	'''获取上月提现记录'''
 	def setUp(self):
 		self.log = logger.Log()
 		self.token = get_token.GetRes().get_res()
 
 	def test_deposit_lastmonth(self):
-		'''获取上月提现记录'''
 		route = data[12]["route"]
 		url = "".join(base.get_url(route))
 		Method = data[12]["method"]

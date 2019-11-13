@@ -2,15 +2,15 @@ import unittest
 from common import base, logger,get_token
 from data.readexcel import ExcelUtil
 
-data = ExcelUtil("personal_center").dict_data()
 
+data = ExcelUtil("personal_center").dict_data()
 class MassageReceived(unittest.TestCase):
+	'''获取会员所有已发信息'''
 	def setUp(self):
 		self.log = logger.Log()
 		self.token = get_token.GetRes().get_res()
 
 	def test_massage_received(self):
-		'''获取会员所有已发信息'''
 		route = data[3]["route"]
 		url = "".join(base.get_url(route))
 		Method = data[3]["method"]

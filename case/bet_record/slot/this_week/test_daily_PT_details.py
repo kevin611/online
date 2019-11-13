@@ -7,11 +7,12 @@ from case.bet_record.slot.this_week import get_this_week_list
 
 data = ExcelUtil("betrecord").dict_data()
 class BetRecordPT(unittest.TestCase):
+	'''测试获取本周每天的PT电子投注详情'''
 	def setUp(self):
 		# self.token = get_token.GetRes().get_res()
 		self.log = logger.Log()
 	def test_PT_bet_details_daily(self):
-		'''测试获取本周每天的PT电子投注详情'''
+
 		route = data[148]["route"]
 		url = "".join(base.get_url(route))
 		Method = data[148]["method"]

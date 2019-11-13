@@ -6,10 +6,11 @@ from case.bet_record.slot.last_week import get_last_week_list
 
 data = ExcelUtil("betrecord").dict_data()
 class BetRecordTTG(unittest.TestCase):
+	'''测试获取上周每天的TTG电子投注详情'''
 	def setUp(self):
 		self.log = logger.Log()
 	def test_TTG_bet_details_daily(self):
-		'''测试获取上周每天的TTG电子投注详情'''
+
 		route = data[160]["route"]
 		url = "".join(base.get_url(route))
 		Method = data[160]["method"]

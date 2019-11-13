@@ -3,14 +3,15 @@ from common import base, logger,get_token
 from data.readexcel import ExcelUtil
 from case.bet_record.lottery.this_month import get_this_month_list
 
-data = ExcelUtil("betrecord").dict_data()
 
+data = ExcelUtil("betrecord").dict_data()
 class BetRecordPcdd(unittest.TestCase):
+	'''测试获取本月每天的pc蛋蛋投注详情'''
 	def setUp(self):
 		# self.token = get_token.GetRes().get_res()
 		self.log = logger.Log()
 	def test_pcdd_bet_details_daily(self):
-		'''测试获取本月每天的pc蛋蛋投注详情'''
+
 		route = data[45]["route"]
 		url = "".join(base.get_url(route))
 		Method = data[45]["method"]

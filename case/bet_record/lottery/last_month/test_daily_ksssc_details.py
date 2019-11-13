@@ -5,10 +5,11 @@ from case.bet_record.lottery.last_month import get_last_month_list
 
 data = ExcelUtil("betrecord").dict_data()
 class BetRecordKsssc(unittest.TestCase):
+	'''测试获取上月每天的快速时时彩投注详情'''
 	def setUp(self):
 		self.log = logger.Log()
 	def test_ksssc_bet_details_daily(self):
-		'''测试获取上月每天的快速时时彩投注详情'''
+
 		route = data[82]["route"]
 		url = "".join(base.get_url(route))
 		Method = data[82]["method"]

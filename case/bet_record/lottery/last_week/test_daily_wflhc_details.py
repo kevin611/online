@@ -5,10 +5,11 @@ from case.bet_record.lottery.last_week import get_last_week_list
 
 data = ExcelUtil("betrecord").dict_data()
 class BetRecordWflhc(unittest.TestCase):
+	'''测试获取上周每天的五分六合彩投注详情'''
 	def setUp(self):
 		self.log = logger.Log()
 	def test_wflhc_bet_details_daily(self):
-		'''测试获取上周每天的五分六合彩投注详情'''
+
 		route = data[33]["route"]
 		url = "".join(base.get_url(route))
 		Method = data[33]["method"]
