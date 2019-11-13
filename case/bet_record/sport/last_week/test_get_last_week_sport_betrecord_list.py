@@ -9,8 +9,8 @@ class BetRecordList(unittest.TestCase):
 	'''测试获取体育上周投注记录'''
 	def setUp(self):
 		self.log = logger.Log()
-	def test_get_sportlist_last_week(self):
 
+	def test_get_sportlist_last_week(self):
 		res = get_last_week_list.BetRecord().get_betrecord_list() # 上周体育投注记录
 		self.log.info("----------test is start----------")
 		self.log.info("请求的接口地址为 %s" %res.url)

@@ -9,7 +9,7 @@ class BetRecordList(unittest.TestCase):
 	'''测试获取棋牌上周投注记录'''
 	def setUp(self):
 		self.log = logger.Log()
-	def test_get_sportlist_last_week(self):
+	def test_get_chesslist_last_week(self):
 
 		res = get_last_week_list.BetRecord().get_betrecord_list() # 上周棋牌投注记录
 		self.log.info("----------test is start----------")

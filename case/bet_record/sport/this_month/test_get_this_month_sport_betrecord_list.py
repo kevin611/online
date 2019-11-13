@@ -10,7 +10,7 @@ class BetRecordList(unittest.TestCase):
 	def setUp(self):
 		self.log = logger.Log()
 
-	def test_get_lotterylist_this_week(self):
+	def test_get_sportlist_this_week(self):
 		res = get_this_month_list.BetRecord().get_betrecord_list() # 本月体育投注记录
 		self.log.info("----------test is start----------")
 		self.log.info("请求的接口地址为 %s" %res.url)
