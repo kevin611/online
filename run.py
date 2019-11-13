@@ -82,7 +82,7 @@ if __name__ == "__main__":
     all_case = add_case()   # 1 加载用例
     # 生成测试报告路径
     run_case(all_case)      # 2 执行用例
-    report_path = os.path.join(cur_path,"report")   # 用例文件
+    report_path = os.path.join(cur_path,"report")   # 报告文件
     report_file = get_report_file(report_path)    # 3 获取最新测试报告
 
     #邮箱配置
