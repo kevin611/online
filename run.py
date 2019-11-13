@@ -2,7 +2,7 @@ import unittest
 import os
 import time
 import HTMLTestRunner
-import smtplib
+import smtplib,asyncio
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
