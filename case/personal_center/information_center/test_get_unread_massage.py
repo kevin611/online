@@ -22,7 +22,7 @@ class AllMassage(unittest.TestCase):
 		self.log.info("请求的参数为: %s" % kwargs)
 		self.log.info("响应内容为: %s" % resp.text)
 		self.log.info("响应状态码为: %s" % resp.status_code)
-		self.assertIn(resp.json()["message"].replace("'\'","'\\'"),data[2]["expect"],msg="失败原因为%s not in %s"%(resp.json()["message"].replace("'\'","'\\'"), data[2]["expect"]))
+		self.assertEqual(data[2]["expect"],resp.json()["message"],msg="失败原因为%s not in %s"%( data[2]["expect"],resp.json()["message"]))
 		self.log.info("----------test is pass----------")
 		self.log.info("----------test is end----------")
 
