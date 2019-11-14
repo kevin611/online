@@ -7,5 +7,5 @@ def get_host():
 
 # 获取验证码URL
 def get_codeurl():
-    code_url = "http://pjdc.9161252.com/frontend/v1/captcha?userName=mmmlll"
+    code_url = "http://pjdc.9161252.com/frontend/v1/captcha?userName=aaalll"
     return code_url
