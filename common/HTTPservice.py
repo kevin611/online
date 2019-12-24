@@ -62,4 +62,3 @@ class MyHttpservice(object):
         except Exception as e:
             self.log.error("put请求错误: %s" % e)
 
-

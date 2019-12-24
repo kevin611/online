@@ -31,4 +31,3 @@ class BetRecord():
 		resp = base.get_response(url, Method, **kwargs)
 		return resp
 
-
