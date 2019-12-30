@@ -1,8 +1,7 @@
 import unittest
-from common import base, logger
+from common import logger
 from data.readexcel import ExcelUtil
 from case.bet_record.lottery.last_month import get_last_month_list
-
 
 data = ExcelUtil("betrecord").dict_data()
 class BetRecordList(unittest.TestCase):

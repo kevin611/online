@@ -3,8 +3,6 @@ from common import base, logger,get_token
 from data.readexcel import ExcelUtil
 from case.bet_record.slot.this_week import get_this_week_list
 
-
-
 data = ExcelUtil("betrecord").dict_data()
 class BetRecordMG(unittest.TestCase):
 	'''测试获取本周每天的MG电子投注详情'''

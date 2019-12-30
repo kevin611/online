@@ -3,7 +3,6 @@ from common import base, logger,get_token
 from data.readexcel import ExcelUtil
 from case.bet_record.slot.last_week import get_last_week_list
 
-
 data = ExcelUtil("betrecord").dict_data()
 class BetRecordAE(unittest.TestCase):
 	'''测试获取上周每天的AE电子投注详情'''

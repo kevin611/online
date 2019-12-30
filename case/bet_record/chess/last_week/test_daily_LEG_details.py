@@ -3,7 +3,6 @@ from common import base, logger,get_token
 from data.readexcel import ExcelUtil
 from case.bet_record.chess.last_week import get_last_week_list
 
-
 data = ExcelUtil("betrecord").dict_data()
 class BetRecordLEG(unittest.TestCase):
 	'''测试获取上周每天的乐游棋牌投注详情'''

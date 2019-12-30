@@ -10,6 +10,8 @@ from email.mime.text import MIMEText
 #当前脚本所在文件真实路径
 cur_path = os.path.dirname(os.path.abspath(__file__))
 
+
+
 def add_case(caseName="case",rule="test*.py"):
     '''第一步：加载所有的测试用例'''
     case_path = os.path.join(cur_path,caseName)  #用例文件夹
@@ -18,7 +20,6 @@ def add_case(caseName="case",rule="test*.py"):
                                                    pattern=rule,
                                                    top_level_dir=None)
     return discover
-
 
 def run_case(all_case,reportName="report"):
     '''第二步：执行所有的用例，并把结果写入HTML测试报告'''

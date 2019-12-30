@@ -3,8 +3,6 @@ from common import base, logger,get_token
 from data.readexcel import ExcelUtil
 from case.bet_record.lottery.this_month import get_this_month_list
 
-
-
 data = ExcelUtil("betrecord").dict_data()
 class BetRecordDS(unittest.TestCase):
 	'''测试获取本月每天的DS投注详情'''

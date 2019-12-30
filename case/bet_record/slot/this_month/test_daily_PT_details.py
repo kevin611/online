@@ -3,7 +3,6 @@ from common import base, logger,get_token
 from data.readexcel import ExcelUtil
 from case.bet_record.slot.last_month import get_last_month_list
 
-
 data = ExcelUtil("betrecord").dict_data()
 class BetRecordPT(unittest.TestCase):
 	'''测试获取本月每天的PT电子投注详情'''

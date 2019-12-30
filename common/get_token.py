@@ -60,4 +60,3 @@ class GetRes(object):
                 continue
             else:
                 return res["token"]
-
