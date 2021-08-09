@@ -12,7 +12,7 @@ pluggy==0.13.0
 py==1.8.0
 pyparsing==2.4.2
 pytesseract==0.3.0
-pywin32==225
+pywin32==301
 requests==2.22.0
 robotframework-autoitlibrary==1.2.4
 six==1.12.0
